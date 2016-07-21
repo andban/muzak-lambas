@@ -1,0 +1,27 @@
+{
+  "name": "muzak-apex",
+  "version": "1.0.0",
+  "description": "AWS Lambda functions for querying music meta data services.",
+  "dependencies": {
+    "axios": "^0.13.1",
+    "disconnect": "^0.9.0",
+    "form-data": "^1.0.0-rc4",
+    "querystring": "^0.2.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-syntax-async-functions": "^6.8.0",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "babel-plugin-transform-regenerator": "^6.11.4",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "disconnect": "^0.9.0",
+    "json-loader": "^0.5.4",
+    "webpack": "^1.13.1"
+  },
+  "author": "Andreas Bannach <andreas@borntohula.de>",
+  "license": "ISC"
+}

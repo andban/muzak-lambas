@@ -1,0 +1,5 @@
+{
+  "description": "Discogs database query",
+  "memory": 128,
+  "timeout": 5
+}

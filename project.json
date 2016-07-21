@@ -1,0 +1,18 @@
+
+{
+  "name": "muzak",
+  "description": "Muzak for the People",
+  "role": "arn:aws:iam::874986136745:role/muzak_lambda_function",
+  "runtime": "nodejs",
+  "handler": "lib.default",
+  "hooks": {
+    "build": "../../node_modules/.bin/webpack --config ../../webpack.config.js",
+    "clean": "rm -fr lib"
+  },
+  "environment": {
+    "SPOTIFY_CLIENT_ID": "",
+    "SPOTIFY_CLIENT_SECRET": "",
+    "DISCOGS_API_TOKEN": "",
+    "ACOUSTID_API_TOKEN": ""
+  }
+}
